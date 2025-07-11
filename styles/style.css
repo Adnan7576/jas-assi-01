@@ -24,6 +24,31 @@
     color: #fff;
 }
 
+
+/* Button */
+
+
+
+    .btn {
+      padding: 16px 36px;
+      font-size: 18px;
+      color: white;
+      background: blue; 
+
+      border: none;
+      cursor: pointer;
+      transition: all .5s ease;
+      transform: scale(1);
+    }
+
+    .btn:hover {
+      background: yellow;
+      color: black;
+      transform: scale(1.05);
+    }
+
+
+
 /* nav  Styles*/
 header{
     background-image: url('../Assets/Hero-bg.png');
@@ -211,7 +236,6 @@ main{
   color: white;
   font-weight: bold;
   border: none;
-  border-radius: 8px;
 }
 
 /* footer style  */
