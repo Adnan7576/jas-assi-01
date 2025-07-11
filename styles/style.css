@@ -63,3 +63,47 @@ nav h3{
     height: 152px;
     margin-bottom: 37px;
 }
+
+main{
+    padding: 50px 150px 10px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;    
+}
+
+.l-container, .r-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.l-container {
+    align-items: flex-start;
+    padding: 0 40px;
+}
+.l-container h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.l-container p {
+    font-size: 24px;
+    margin-bottom: 23px;
+    color: #252432;
+    opacity: 0.5;
+}
+
+.r-container {
+    align-items: center;
+    padding: 0 40px;
+}
+
+.r-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 48px;
+}
