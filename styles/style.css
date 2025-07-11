@@ -107,3 +107,46 @@ main{
     display: block;
     border-radius: 48px;
 }
+
+
+/* stats style */
+.stats-section {
+  background-color: #4d47ff10;
+  padding: 50px 80px; 
+  border-radius: 24px;
+  text-align: center;
+  color: #252432;
+  max-width: 1200px;
+  margin: auto; /* Centers the section */
+}
+
+.section-title {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.stat-box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  /* flex: 1; */
+  min-width: 150px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 80px;
+  font-weight: 700;
+  color: #4E47FF;
+  font-family: "inter", sans-serif;
+}
+
+.stat-label {
+  font-size: 20px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
