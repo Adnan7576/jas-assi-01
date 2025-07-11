@@ -134,7 +134,6 @@ main{
 }
 
 .stat-box {
-  /* flex: 1; */
   min-width: 150px;
   text-align: center;
 }
@@ -150,3 +149,68 @@ main{
   font-size: 20px;
   color: hsla(0, 0%, 0%, 0.5);
 }
+
+/* from section styles */
+
+.form-section {
+  padding: 60px 20px;
+}
+
+.form-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.form-text h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 97px;
+  font-weight: bold;
+  color: #000;
+}
+
+.form-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  padding: 32px 24px;
+  border-radius: 16px;
+}
+
+.form-form label {
+  font-size: 18px;
+  color: #333;
+}
+
+.form-form input,
+.form-form textarea {
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+}
+
+.form-form button {
+  margin-top: 10px;
+  padding: 14px;
+  background-color: #4e47ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
